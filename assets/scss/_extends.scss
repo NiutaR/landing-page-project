@@ -75,7 +75,7 @@
         content: "";
 
         opacity: 0;
-        background-color: $color-light;
+        background-color: $color-accent;
 
         @include lg-min {
             left: 0;
@@ -97,7 +97,7 @@
         &:hover,
         &:focus {
             .nav-link {
-                color: $color-light;
+                color: $color-beige;
 
                 &::after {
                     height: 3px;
